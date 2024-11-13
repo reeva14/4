@@ -1,0 +1,48 @@
+print("Graphs Adjacency Matrix")
+
+n=int(input("Enter number of vertices: "))
+
+V=11[]
+
+for i in range(n):
+
+x=input ("Enter the names of vertices: ")
+V.append(x)
+
+A=11
+
+for i in range(n):
+
+r=[]
+for j in range(n):
+r.append(0)
+
+A.append(r)
+
+for i in range (n):
+
+for j in range(n):
+
+print("Is", V[i], "is adjacent to "V[]," ? 1.  Yes 2. No.")
+
+ans=int(input())
+if ans==1:
+
+A[i][j]=1
+
+print("Adjacency Matrix:")
+for i in range(n):
+
+for j in range(n):
+
+print (A[i][j],end-" ")
+print()
+
+
+
+
+
+
+
+
+
